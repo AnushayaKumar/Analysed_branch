@@ -1,0 +1,318 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+  .options{
+    margin-top: 50px;
+    /* margin-left: 70px;   */
+}
+.options p{
+    margin-top: 15px;
+    /* margin-left: 10px; */
+    color: var(--unnamed-color-3598db);
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+}
+.options a{
+    text-decoration: none;
+    color: #979797;
+}
+.options-card
+{
+    margin-top:-135px;
+    /* margin-left: 230px; */
+    width: 500px;
+    height: 200px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+
+#value_sel{
+  font-size: 10px;
+}
+
+/* 
+.top_myTasks {
+  width: 200px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 31px;
+  border: #333333;
+  opacity: 1;
+  padding: 0px 30px;
+}
+.top_myTasks select {
+  padding: 0px 10px;
+  color: #297fb8;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 18px;
+  border-right: 1px solid #979797;
+}
+.top_myTasks select::-ms-expand {
+  display: none;
+}
+
+.inputSearchFileName_myTasks_10 {
+  color: #979797;
+  padding: 10px;
+}
+.top_myTasks button {
+  color: #297fb8;
+  cursor: pointer;
+} */
+button,
+input,
+select {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.addFilesMyTasks {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #6ec5ff;
+  color: white;
+  padding: 8px 16px;
+}
+.cards_myTasks {
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardItem_myTasks {
+  flex-basis: 22%;
+  background-color: white;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  color: #333333;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.memoryUsed_myTasks {
+  font-weight: bold;
+  font-size: 12px;
+}
+.avaiSpace_myTasks {
+  color: #979797;
+  font-size: 12px;
+}
+.yellowIcon_myTasks {
+  color: #ffbd06;
+  font-size: 25px;
+}
+.greenIcon_myTasks {
+  color: #51c46d;
+  font-size: 25px;
+}
+.purpleIcon_myTasks {
+  color: #8c60eb6d;
+  font-size: 25px;
+}
+.centered_span_myTasks {
+  color: #979797;
+  font-size: 18px;
+}
+.headingInCard_myTasks {
+  font-size: 36px;
+}
+
+.filterSection_myTasks {
+  left:500px; 
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.leftFilter_myTasks {
+  width: 200px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 31px;
+  opacity: 1;
+  padding: 0px 10px;
+}
+.leftFilter_myTasks select {
+  padding: 0px 5px;
+  color: #297fb8;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 14px;
+  border-right: 1px solid #979797;
+}
+.leftFilter_myTasks select::-ms-expand {
+  display: none;
+}
+
+.inputSearchFileName_myTasks {
+  color: #979797;
+  padding: 5px;
+}
+.leftFilter_myTasks button {
+  color: #297fb8;
+  cursor: pointer;
+}
+.sortByMyTasks {
+  color: #979797;
+  margin: 0px 5px;
+}
+.recentMyTasks {
+  color: #8bd0ffb8;
+  margin: 0px 5px;
+}
+.sortFilter_myTasks {
+  padding: 0px 10px;
+  color: #333333;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 18px;
+}
+
+.filterSmall_myTasks {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.filterSmall_myTasks select {
+  color: #3598DB;
+  border: 1px solid #3598db;
+  font-size: 14px;
+  padding: 6px 15px;
+  min-width: 140px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  border-radius: 8px;
+  text-align: left;
+}
+.selectAllActions_filterSmall_myTasks {
+  color: #297fb8;
+}
+.selectAllActions_filterSmall_myTasks select {
+  margin-left: 10px;
+}
+
+.singleTasks_containerDiv {
+  margin-top: 40px;
+}
+
+.singletask_myTasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background: #fff;
+  padding:20px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.light_spanItem_singleTask_myTasks{
+  color: #979797;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.button-div_myTasks{
+  display: flex;
+  flex-direction: column;
+}
+.button-div_myTasks button{
+  text-align: left;
+}
+
+@media screen and (max-width:700px){
+  .cardItem_myTasks{
+    flex-basis: 95%;
+    margin-bottom: 10px;
+  }
+  .filterSection_myTasks {
+    flex-direction: column;
+  }
+  .leftFilter_myTasks{
+    flex-basis: 95%;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .leftFilter_myTasks select{
+    font-size: 14px;
+    padding: 0px;
+  }
+  .inputSearchFileName_myTasks{
+    width: 50%;
+    font-size: 14px;
+  }
+  .rightFilter_myTasks{
+    text-align: center;
+  }
+  .filterSmall_myTasks{
+    margin-top: 20px;
+  }
+  .filterSmall_myTasks select{
+    padding: 5px 12px;
+    font-size: 13px;
+    min-width: 80px;
+  }
+  .selectAllActions_filterSmall_myTasks{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+  .singletask_myTasks {
+    padding: 20px 5px;
+  }
+  .selectAllActions_filterSmall_myTasks input{
+    margin-right: 8px;
+  }
+  .singletask_myTasks span:nth-child(2),.singletask_myTasks span:nth-child(4){
+    display: none;
+  }
+  .singletask_myTasks button{
+    cursor: pointer;
+  }
+}

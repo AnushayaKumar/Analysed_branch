@@ -1,0 +1,206 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  #upload-modal
+  {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    z-index: 2;
+    display: none;
+  }
+  #upload-container
+  {
+    width: 850px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    /* text-align: center; */
+          
+  }
+
+.head_ele{
+    margin-left: 180px;
+    margin-right:150px;
+}
+.content_1{
+  color: #333333;
+  font-family: CeraM;
+  font-size: 27px;
+  letter-spacing: 0px;
+}
+#sub_3{
+  color: #979797;
+  font-family: CeraM;
+  font-size: 17px;
+  letter-spacing: 0px;
+}
+.sub_1{
+  margin-left: 170px;
+}
+.sub_2{
+  color: #333333;
+  font-family: Metro;
+  font-size: 18px;
+  letter-spacing: 0px;
+  
+}
+.content_2{
+  color: #979797;
+  font-family: Metro;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+#box_1{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#box_2{
+    color: #333333;
+    font-size: 16px;
+    font-family:Metro ;
+}
+#content_3{
+  width: 600px;
+  height: 200px;
+  margin-left: 170px;
+}
+.val_1{
+    color: #333333;
+    font-family: Metro;
+    font-size: 49px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.val_2{
+  color: #979797;
+  font-family: Metro;
+  font-size: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 0.5;
+}
+.val3 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #EC4551;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border: 1px solid #EC4551;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: Metro;
+  font-size: 18px;
+}
+.val4 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #3598DB;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border: 1px solid #3598DB;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: Metro;
+  font-size: 18px;
+}
+.bot1{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 27px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.bot2{
+  color: #6EC5FF;
+  font-family: Metro;
+  font-size: 18px;
+  margin-left: 500px;
+}
+.bot3{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.bot4{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 18px;
+}
+.bot5{
+  color: #3598DB;
+  font-family: Metro;
+  font-size: 16px;
+  text-align: right;
+  margin-right: 30px;
+}
+.ro{
+  width: 500px;
+  height: 250px;
+  border: 3px dashed #707070;
+  border-radius: 8px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  align-items: center;
+}
+
+.addFilesMyTasks1 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #3598DB;
+  padding: 8px 16px;
+  border: 2px solid #3598DB;
+  align-items: center;
+  width: auto;
+  height: 47px;
+  margin-left: 210px;
+}
+
+.c1{
+  color: #333333;
+  font-size: 35px;
+  font-family: CeraB;
+}
+.c2{
+  color: #979797;
+  font-size: 25px;
+  font-family: Metro;
+}
+#btnfinish{
+  background-color: #71BE34;
+  color: #fff;
+  height: 48px;
+  width: 212px;
+}

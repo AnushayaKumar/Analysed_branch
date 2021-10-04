@@ -1,0 +1,202 @@
+.small_container{
+    margin-left: -1%;
+    margin-right: -2%;
+}
+.Dashboard-main-container{
+    display: flex;
+    margin-left: 4%;
+    margin-top: 0%;
+    margin-right:-5%;
+}
+.left-side-container-DashboardJ{
+  flex-basis: 77%;
+  margin-right: 40px;
+}
+.right-side-container-DashboardJ {
+  flex-basis: 27%;
+  border-left: 2px solid #979797;
+  padding-left: 30px;
+  margin-right: -300px;
+  margin-top: 30px;
+}
+.live-recording-class {
+  font-size: 27px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.fa-dot-circle-o{
+    color:#D72121;
+    font-size:24px;
+    margin-right:10px;
+}
+.live-recording-class span {
+  font-size: 27px;
+  color: #979797;
+  font-weight: 400;
+}
+.video-call-meet-image{
+  text-align: center;
+  width: 90%;
+  margin: 0px auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 31px;
+}
+.queries-container {
+  margin: 30px 0px 20px 0px;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+}
+.skills-container{
+    display: flex;
+     cursor: pointer;
+}
+.skill-content{
+    width: 113px;
+    height: 47px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    margin-right: 20px;
+}
+.skill-content p{
+    color: #3598DB;
+    padding: 15px 30px;
+
+}
+.queries-details-container{
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.query-box-container{
+  flex-basis: 49%;
+  margin: 20px 0px;
+  color: #333333;
+  padding: 15px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+}
+.meet-info-name{
+    color: black;
+    font-size: 27px;
+}
+.meet-info-span-class{
+    margin-left: 210px;
+    margin-top: -20px;
+}
+.meet-info-1{
+    margin-top: 10px;
+}
+.meet-info-role{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #3598DB;
+}
+.meet-info-1 span{
+    color: black;
+}
+.meet-info-span-class-role{
+    margin-left: 230px;
+    margin-top: -20px;
+}
+.meet-info-span-class-location{
+    margin-left: 230px;
+    margin-top: -20px;
+}
+.meet-info-2{
+     margin-top: 50px;
+ }
+ .span-1{
+    margin-left: 70px;
+    margin-top: -38px;
+ }
+ .span-1 span{
+    color: #979797;
+ }
+ .span-2{
+    margin-left: 190px;
+    margin-top: -43px;
+ }
+ .span-2 span{
+    color: #979797;
+    margin-bottom: 7px;
+ }
+ .span-1 p{
+    margin-top: 8px;
+ }
+ .span-2 p{
+    margin-top: 8px;
+ }
+ .hr-class{
+    border-top: 2px solid #979797;
+    color: #979797;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+ }
+ .skills-class{
+    color: #3598DB;
+    font-size: 18px;
+ }
+ .skills{
+    display: flex;
+ }
+.skills-box{
+    margin-top: 15px;
+    border: 1px solid var(--unnamed-color-333333);
+    border: 1px solid #333333;
+    border-radius: 6px;
+    opacity: 1;
+    width: 89px;
+    height: 36px;
+    margin-right: 20px;
+    display: block;
+}
+.skills-box p{
+    padding: 10px 20px;
+}
+.employment-history{
+    margin-top: 20px;
+}
+.employment-history-class-1{
+    color: #979797;
+    margin-bottom: 8px;
+}
+.education{
+    margin-top: 20px;
+}
+.location-info{
+    margin-left: 100px;
+    margin-top: -35px;
+}
+.education-info-span-class{
+    color: #979797;
+    margin-top: 8px;
+}
+.contact-info{
+    margin-top: 20px;
+}
+.contact-info-class{
+    margin-bottom: 8px;
+}
+.skill-content a{
+    text-decoration: none;
+    color: #3598DB;;
+}
+.skills-container .active{
+    background: var(--unnamed-color-3598db) 0% 0% no-repeat padding-box;
+    background: #3598DB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    color: white;
+}
+.skills-container .active a{
+    color: white;
+}
