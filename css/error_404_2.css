@@ -1,0 +1,70 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+.val1{
+    font-family: CeraB;
+    font-size: 40px;
+    color: #2D3E50;
+}
+.val2{
+    font-family: Metro;
+    font-size: 18px;
+    color: #979797;
+    text-align:center;
+}
+.val3{
+    color: #979797;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid #979797;
+    background-color: #979797;
+}
+.val4 {
+    display: flex;
+    right: 2%;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background-color: #FE4419;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: 1px solid #FE4419;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    /* margin-left: 400px; */
+    text-align: center;
+    font-family: Metro;
+    font-size: 16px;
+  }
+
+  .val5 {
+    display: flex;
+    right: 2%;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background-color: #FEB709;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: 1px solid #FEB709;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    /* margin-left: 400px; */
+    text-align: center;
+    font-family: Metro;
+    font-size: 16px;
+  }
+

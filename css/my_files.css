@@ -1,0 +1,367 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+
+  #opt1{
+    color: #3598DB;
+    font-size: 16px;
+    height: 53px;
+    width: 287px;
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+    background-color: #fff;
+    margin-left: 200px;
+  }
+
+  .categories-mytasks-1-active{
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #979797;
+    font-size: 18px;
+    margin-left: 300px;
+  }
+  .category-mytasks1{
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    width: 50%;
+    /* padding: 20px; */
+  }
+  .category-mytasks1.active{
+    border-bottom: 3px solid #3598DB;
+    color: #3598DB;
+    width: 20%;
+    /* padding: 20px; */
+    font-weight: 500;
+  
+  }
+  
+  
+.addFilesMyTasks1 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #3598DB;
+  padding: 8px 16px;
+  border: 2px solid #3598DB;
+  align-items: center;
+  width: auto;
+  height: 47px;
+  margin-left: 210px;
+}
+  #sub_3{
+    color: #979797;
+    font-family: CeraM;
+    font-size: 17px;
+    letter-spacing: 0px;
+  }
+  .ro{
+    width: 668px;
+    height: 295px;
+    border: 3px dashed #707070;
+    border-radius: 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    align-items: center;
+  }
+  
+  .bot4{
+    color: #333333;
+    font-family: MetroM;
+    font-size: 18px;
+  }
+  #upload-modal
+  {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    z-index: 2;
+    display: none;
+  }
+  #upload-container
+  {
+    width: 1000px;
+    height: 718px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    /* text-align: center; */
+          
+  }
+.main_body{
+    margin-left: 15%;
+    margin-top: 60px;
+    margin-right: 10%;
+    /* margin-right: 250px;; */
+}
+.sub_txt{
+    font-size: 16px;
+    font-family: Metro;
+    color: #3598DB;
+}
+.head_txt{
+  margin-left: 0%;
+    font-size: 35px;
+    font-family: CeraM;
+    color: #333333;
+}
+.addFilesMyTasks {
+    position: absolute;
+    right: 2%;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background-color: #6ec5ff;
+    color: white;
+    padding: 8px 16px;
+    margin-right:7%;
+    width: 95px;
+    height: 38px;
+}
+.memoryUsed_myTasks {
+  font-family: CeraM;
+  color: #333333;
+  font-weight: bold;
+  font-size: 12px;
+}
+.v1{
+    font-family: Metro;
+    color: #979797;
+  font-size: 12px;
+}
+progress::-moz-progress-bar {
+    background: #3598DB;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+    background: green;
+}
+progress{
+    width: 272px;
+    height: 13px;
+    border-radius: 7px;
+    color: #D3EEFF;
+    border: none; 
+    background: #D3EEFF 0% 0% no-repeat padding-box;
+}
+.centered_span_myTasks {
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+  }
+  #k1{
+      color: #297FB8;
+      font-size: 16px;
+      font-family: Metro;
+  }
+  .filterSection_myTasks {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.leftFilter_myTasks {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 31px;
+    opacity: 1;
+    padding: 0px 30px;
+    height: 50px;
+    width: 590px;
+  }
+  .leftFilter_myTasks select {
+    padding: 0px 10px;
+    color: #297fb8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+    font-size: 18px;
+    border-right: 1px solid #979797;
+  }
+  .leftFilter_myTasks select::-ms-expand {
+    display: none;
+  }
+  .filterSmall_myTasks select {
+    color: #979797;
+    border: 1px solid #3598db;
+    font-size: 13px;
+    padding: 6px 15px;
+    width: 186px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+.light_spanItem_singleTask_myTasks{
+    color: #979797;
+    font-size: 14px;
+    font-family: Metro;
+    margin-bottom: 5px;
+  }
+.j1{
+    color: #333333;
+    font-size: 16px;
+    font-family: Metro;
+}
+.singletask_myTasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background: #fff;
+    padding:20px;
+    color: #333333;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 1150px;
+  }
+  
+
+
+
+
+
+
+button,
+input,
+select {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+
+.cards_myTasks {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardItem_myTasks {
+  flex-basis: 22%;
+  background-color: white;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  color: #333333;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avaiSpace_myTasks {
+  color: #979797;
+  font-size: 12px;
+}
+.yellowIcon_myTasks {
+  color: #ffbd06;
+  font-size: 25px;
+}
+.greenIcon_myTasks {
+  color: #51c46d;
+  font-size: 25px;
+}
+.purpleIcon_myTasks {
+  color: #8c60eb6d;
+  font-size: 25px;
+}
+
+.headingInCard_myTasks {
+  font-size: 28px;
+}
+
+
+
+.inputSearchFileName_myTasks {
+  color: #979797;
+  padding: 10px;
+}
+.leftFilter_myTasks button {
+  color: #297fb8;
+  cursor: pointer;
+}
+.sortByMyTasks {
+  color: #979797;
+  margin: 0px 15px;
+}
+.recentMyTasks {
+  color: #8bd0ffb8;
+  margin: 0px 10px;
+}
+
+.sortFilter_myTasks {
+  padding: 0px 10px;
+  color: #333333;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  font-size: 16px;
+}
+.filterSmall_myTasks {
+  margin-top: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.selectAllActions_filterSmall_myTasks {
+  color: #297fb8;
+}
+.selectAllActions_filterSmall_myTasks select {
+  margin-left: 10px;
+}
+.singleTasks_containerDiv {
+  margin-top: 40px;
+}
+
+.button-div_myTasks{
+  /* display: flex; */
+  flex-direction: column;
+}
+.button-div_myTasks button{
+  text-align: left;
+}

@@ -1,0 +1,370 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+
+
+.nameandDesignation-container-mymessages.border-bottom{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+}
+.para-companydescription-main-content-right-side-myMessages{
+    margin-top: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #979797;
+    line-height: 24px;
+}
+.flexitem-company-nameand-info{
+    display:flex;
+    align-items: center;
+}
+.flexitem-company-nameand-info img{
+margin-right: 10px;
+}
+.company-info-websiteand-details-right-side-myMessages span{
+    display: flex;
+    align-items: center;
+    margin:8px 0px;
+    color: #3598DB;
+    font-size: 16px;
+}
+.company-info-websiteand-details-right-side-myMessages span i{
+    margin-right: 8px;
+}
+.seeallJobs_right-side-mymessages{
+    margin-top: 40px;
+    color: white;
+    background-color:#3598DB;
+    padding: 5px 12px;
+    border-radius: 7px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    height: 39px;
+    width: 130px;
+}
+
+
+.row-ekam-flex-myMessages{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.left-side-myMessages{
+  flex-basis: 60%;
+}
+.nameAndInfo-myMessages{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.back-icon-myMessages{
+  background-color: #D3EEFF;
+  color: white;
+  padding:15px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.nameAndInfo-myMessages span h1{
+  color: #2D3E50;
+  font-size: 28px;
+  font-family: MetroB;
+}
+.nameAndInfo-myMessages span p{
+  color: #979797;
+  font-family: MetroM;
+  font-size: 16px;
+}
+.icon-nameAndInfo{
+  margin-top: 12px;
+  display: inline-block;
+  font-size: 18px;
+  color: #979797;
+  margin-right: 8px;
+}
+.messages-container-myMessages{
+  margin-top: 40px;
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.date-of-messages-container-myMessages{
+  display: table;
+  margin:auto;
+  width: fit-content;
+  color: #818B96;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 8px;
+  background-color: #D3EEFF;
+}
+.messagesDiv-left-side-myMessages{
+  float:left;
+  text-align: left;
+  margin-top: 10px;
+}
+.messagesDiv-right-side-myMessages{
+  float:right;
+  text-align: right;
+  margin-top: 10px;
+  width: 70%;
+}
+.sender-messages{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 40px;
+}
+.receiver-messages{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 40px;
+  text-align: right;
+  width:max-content;
+  float: right;
+  justify-content: flex-end;
+}
+.sender-messages-message-received-myMessages{
+  padding: 20px;
+  background: #D3EEFF;
+  width: 60%;
+  border-radius: 22px 22px 22px 0px;
+}
+.receiver-messages-message-received-myMessages{
+  padding: 10px;
+  background: #3598DB;
+  width: 100%;
+  border-radius: 22px 22px 0px 22px;
+  color:white;
+}
+.sender-image-sender-messages,.receiver-image-receiver-messages{
+  padding: 5px 5px;
+  border-radius: 30px;
+  margin-right: 8px ;
+  font-size: 14px;
+  color: #8C60EB;
+  background-color: #8C60EB4F;
+}
+.receiver-image-receiver-messages{
+  margin-right: 0px;
+  margin-left: 8px;
+}
+.messages-seen-time-sender-messages{
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #818B96;
+  width: 100%;
+  position: absolute;
+  bottom: -20%;
+  left: 4%;
+}
+.messages-seen-time-receiver-messages{
+  right: 1%;
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #818B96;
+  width: 100%;
+  position: absolute;
+  bottom: -30%;
+}
+.inputforMessages-send-messages-myMessages{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3598db;
+background: #FFFFFF;
+box-shadow: 1px 3px 10px #00000033;
+border: 1px solid #3598DB;
+border-radius: 36px;
+justify-content: space-between;
+padding: 10px 30px;
+}
+.inputforMessages-send-messages-myMessages i{
+  cursor: pointer;
+  font-size: 26px;
+  color: #3598DB;
+}
+.inputforMessages-send-messages-myMessages input{
+  width: 85%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #979797;
+}
+.paperclip-and-sendButton-inputforMessages i{
+  margin-right: 8px;
+  display: inline-block;
+}
+.right-side-myMessages{
+  flex-basis: 30%;
+  padding:0px 50px;
+}
+.tabsForMyMessages-right-side{
+  display: block;
+  align-items: center;
+}
+.status-tabsFromMyMessages{
+  font-size: 18px;
+  color: #979797;
+  display: inline-block;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+.tabsForMyMessages-right-side{
+  margin-bottom: 50px;
+}
+.status-tabsFromMyMessages.active{
+  color: #333333;
+  border-bottom: 5px solid #3598db;
+  font-weight: bold;
+  font-family: MetroM;
+}
+.status-right-side-myMessages{
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border: 2px solid #2D3E502B;
+  border-radius: 31px;
+  width: 80%;
+}
+.status-indicator-InProgress-myMessages{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #3598DB;
+  display: inline-block;
+}
+.status-right-side-myMessages p{
+  font-size: 18px;
+  color: #333333;
+  margin-left: 12px;
+}
+.status-right-side-myMessages i{
+  color: #979797;
+  margin-left: 120px;
+}
+.upload-Date-myMessages{
+  margin-top: 15px;
+  font-size: 14px;
+  color: #979797;
+}
+.deliveryTime-right-side-myMessages{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.deliveryTime-right-side-myMessages i{
+  font-size: 28px;
+  margin-right: 20px;
+  color: #3598DB;
+}
+.date-for-submission-myMessages{
+  color:#2D3E50 ;
+  font-size: 18px;
+}
+.estimateddate-for-submission-myMessages,.starteddate-for-submission-myMessages,.assignedto-mymessages-right-side,.nameandDesignation-right-side-myMessages p:nth-child(2){
+  font-size: 14px;
+  color: #979797;
+}
+.starteddate-for-submission-myMessages{
+  margin-top: 12px;
+}
+.starteddate-for-submission-myMessages strong{
+  color: #2D3E50;
+}
+.nameandDesignation-container-mymessages{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.nameandDesignation-right-side-myMessages p:nth-child(1){
+  font-size: 22px;
+  color: #2D3E50;
+  font-family: MetroM;
+}
+.nameandDesignation-container-mymessages span{
+  padding: 17px 17px;
+  font-size: 16px;
+  border-radius: 100%;
+  color: #8C60EB;
+  background-color: #8C60EB4F;
+}
+
+.location-mymessages-rightSide{
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.location-mymessages-rightSide p:nth-child(1){
+ color: #2D3E50;
+}
+.location-mymessages-rightSide p:nth-child(2){
+  color: #979797;
+}
+
+@media screen and (max-width:1000px){
+  .sender-messages-message-received-myMessages{
+      width: 90%;
+  }
+  .receiver-messages-message-received-myMessages{
+      width: 90%;
+  }
+  .inputforMessages-send-messages-myMessages{
+      padding: 10px 20px;
+  }
+  .inputforMessages-send-messages-myMessages input{
+      width: 50%;
+  }
+  .left-side-myMessages{
+      flex-basis: 95%;
+  }
+  .right-side-myMessages{
+      margin-top: 50px;
+      flex-basis: 95%;
+      padding: 20px;
+  }
+  .status-right-side-myMessages{
+      width: 100%;
+  }
+  .status-right-side-myMessages p{
+      font-size: 16px;
+  }
+  .nameandDesignation-container-mymessages,.location-mymessages-rightSide{
+      width: 100%;
+  }
+}

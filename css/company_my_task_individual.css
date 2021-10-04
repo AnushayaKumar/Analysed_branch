@@ -1,0 +1,258 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  
+.head_ele{
+    margin-left: 180px;
+    margin-right:150px;
+}
+.content_1{
+  color: #333333;
+  font-family: CeraM;
+  font-size: 24px;
+  letter-spacing: 0px;
+}
+#sub_3{
+  color: #979797;
+  font-family: CeraM;
+  font-size: 17px;
+  letter-spacing: 0px;
+}
+.sub_1{
+  margin-left: 170px;
+}
+.sub_2{
+  color: #333333;
+  font-family: Metro;
+  font-size: 14px;
+  letter-spacing: 0px;
+  
+}
+.sub_9{
+  color: #333333;
+  font-family: Metro;
+  font-size: 12px;
+  letter-spacing: 0px;
+  
+}
+.content_2{
+  color: #979797;
+  font-family: Metro;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+.content_9{
+  color: #979797;
+  font-family: Metro;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.c8{
+  color: #333333;
+  font-family: Metro;
+  font-size: 12px;
+}
+.c9{
+  color: #979797;
+  font-family: Metro;
+  font-size: 10px;
+  letter-spacing: 0px;
+}
+#box_1{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.sc1{
+    color: #333333;
+    font-family: MetroM;
+    font-size: 14px;
+    text-align: center;
+  }
+#box_2{
+    color: #333333;
+    font-size: 16px;
+    font-family:Metro ;
+}
+#box_9{
+  color: #333333;
+  font-size: 13px;
+  font-family:Metro ;
+}
+#cont_1{
+  width: 460px;
+  height: 170px;
+  /* margin-left: 170px; */
+}
+.val_1{
+    color: #333333;
+    font-family: Metro;
+    font-size: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.val_2{
+  color: #979797;
+  font-family: Metro;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 0.5;
+}
+.button_3 {
+  display: flex;
+  /* right: 1%; */
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #EC4551;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border: 1px solid #EC4551;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: Metro;
+  font-size: 16px;
+}
+#gh1{
+    width: 100%;
+}
+.val4 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #3598DB;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border: 1px solid #3598DB;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: Metro;
+  font-size: 18px;
+}
+.bot1{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.bot2{
+  color: #6EC5FF;
+  font-family: Metro;
+  font-size: 16px;
+  margin-left: 150px;
+}
+.b2{
+  color: #6EC5FF;
+  font-family: Metro;
+  font-size: 14px;
+  margin-left: 60px;
+}
+.bot3{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.bot4{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 18px;
+}
+.bot5{
+  color: #3598DB;
+  font-family: Metro;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 30px;
+}
+.more_1{
+  color: #3598DB;
+  font-family: Metro;
+  font-size: 14px;
+  text-align: center;
+}
+.ro{
+  width: 500px;
+  height: 250px;
+  border: 3px dashed #707070;
+  border-radius: 8px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  align-items: center;
+}
+.addFilesMyTasks1 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #3598DB;
+  color: white;
+  padding: 6px 6px;
+  border: 1px solid #3598DB;
+  text-align: center;
+  width:60px;
+  height: 40px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+.addFilesMyTasks2 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #FFBD06;
+  padding: 6px 6px;
+  border: 2px solid #FFBD06;
+  text-align: center;
+  width:120px;
+  height: 40px;
+  font-size: 14px;
+}
+.addFilesMyTasks3 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #8C60EB;
+  padding: 6px 6px;
+  border: 1px solid #8C60EB;
+  text-align: center;
+  width:160px;
+  height: 40px;
+  font-size: 14px;
+}
+.c1{
+  color: #333333;
+  font-size: 35px;
+  font-family: CeraB;
+}
+.c2{
+  color: #979797;
+  font-size: 25px;
+  font-family: Metro;
+}
+#btnfinish{
+  background-color: #71BE34;
+  color: #fff;
+  height: 48px;
+  width: 212px;
+}

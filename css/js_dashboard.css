@@ -1,0 +1,310 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+
+.main_body{
+    margin-left: 150px;
+    background-color: transparent;
+}
+.head_1{
+    color: #333333;
+    font-size: 40px;
+    font-family: CeraM;
+}
+.sub_1{
+    color: #3598DB;
+    font-size: 16px;
+    font-family: Metro;
+}
+.loc_1{
+    color: #333333;
+    font-size: 18px;
+    font-family: MetroM;
+}
+.loc_2{
+    color: #333333;
+    font-size: 18px;
+    font-family: Metro;
+    margin-left: 40px;
+}
+.loc_3{
+    color: #333333;
+    font-size: 16px;
+    font-family: Metro;
+}
+.map_des{
+    height:250px;
+    width:480px;
+    margin-left: 40px;
+}
+#c1{
+    height:100px;
+    width: 250px;
+    align-items:center;
+    display: flex;
+}
+#c2{
+    width: 550px;
+    height: 750px;
+    /* align-items:center; */
+    display: flex;
+}
+#c3{
+    width: 540px;
+    height: 676px;
+    /* align-items:center; */
+    display: flex;
+}
+#val1{
+    margin-top: 25px;
+}
+.cardImageDash{
+    height: 55px;
+    width: 55px;
+}
+.headingCards{
+    color: #979797;
+    font-size: 18px;
+    font-family: Metro;
+    line-height: 10%;
+}
+.last_t1{
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 130px;
+}
+#b_8{
+    color: #979797;
+    font-size: 14px;
+    font-family: Metro;
+    /* margin-left: 150px; */
+}
+.last_t2{
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 190px;
+}
+.last_t3{
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 220px;
+    /* margin-top: 200px; */
+}
+.numberCards{
+    color: #333333;
+    font-size: 30px;
+    font-family: MetroM;
+    margin-left:30px
+}
+.leftText{
+    color: #333333;
+    font-size: 18px;
+    font-family: MetroM;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.rightText{
+    color: #3598DB;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 280px;
+}
+.rightText1{
+    color: #3598DB;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 240px;
+}
+.mapForJobsImage{
+    height: 358px;
+    width: 500px;
+    margin-left: 30px;
+}
+#l1_h1{
+    color: #333333;
+    font-size: 18px;
+    font-family: MetroM;
+}
+
+#temp{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    width: 100%; 
+}
+#temp2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin:10px;
+}
+#temp3{
+    box-shadow: 0 4px 8px 0 #fff;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin:10px;
+}
+.more_v{
+    color: #6EC5FF;
+    font-size: 16px;
+    font-family: MetroM;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+.more_m{
+    color: #6EC5FF;
+    font-size: 15px;
+    font-family: MetroM;
+    margin-left: 20px;
+    margin-top: 130px;
+
+}
+.icons{
+    align-items: right;
+    margin-top: 15px;
+    margin-left:180px
+}
+#b_9{
+    color:#333333;
+    font-family: Metro;
+    font-size: 16px;
+    /* line-height: 1.3; */
+}
+#b4{
+    color:#333333;
+    font-family: MetroS;
+    font-size: 16px;
+}
+#b5{
+    color:#979797;
+    font-family: MetroM;
+    font-size: 12px;
+}
+.designation{
+    font-family: MetroB;
+    font-size: 18px;
+    color: #333333;
+}
+.days{
+    color: #979797;
+    font-family: MetroM;
+    font-size:12px;
+}
+.skills{
+    color: #3598DB;
+    font-style: MetroMI;
+    font-size: 16px;
+}
+.last_job_content #first{
+    float:left;
+    margin-top: 10px;
+    font-size: smaller;
+    font-family: sans-serif;
+    color: #979797;
+}    
+.last_job_content #second{
+    text-decoration: none;
+    float: right;
+    border: 1px solid #3598DB;
+    border-radius: 20px;
+    padding:5px;
+    color:#3598DB;
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+.last_job_content{
+  color: #0F9D58;
+  font-size: 16px;
+  font-family: MetroM;
+}
+
+.o1{
+    color: #333333;
+    font-size: 18px;
+    font-family: MetroM;
+}
+.s1{
+    border-radius: 8px;
+    text-align: center;
+    height: 230px;
+    width: 210px;
+    /* margin-top: 50px; */
+}
+.s4{
+    /* text-align: center; */
+    height: 58px;
+    width: 900px;
+    border: 1px solid #6EC5FF38;
+    background-color: #6EC5FF38;
+}
+#k1{
+    border: 1px solid #816CD51A;
+    background-color: #816CD51A;
+}
+#k2{
+    border: 1px solid #F268421A;
+    background-color: #F268421A;
+}
+#k3{
+    border: 1px solid #2C528F1A;
+    background-color: #2C528F1A;
+}
+#k4{
+    border: 1px solid #FDF53F1A;
+    background-color: #FDF53F1A;
+}
+
+
+#li_5{
+    height: 530px;
+    width: 900px;
+}
+.addFilesMyTasks1 {
+    /* display: flex; */
+    /* right: 2%; */
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background-color: #3598DB;
+    color: #fff;
+    padding: 8px 16px;
+    border: 1px solid #3598DB;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    height: 35px;
+    margin-left: 400px;
+    font-size: 14px;
+  }

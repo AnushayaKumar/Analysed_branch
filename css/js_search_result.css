@@ -1,0 +1,170 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  
+
+.right_shift {
+    max-width: 100%;
+    margin-left: 180px;
+    position: relative;
+    padding: 0px 30px;
+    margin-top: 30px;
+  }
+.heading{
+    font-weight: 400;
+  font-size: 45px;
+  color: #333333;
+  margin: 10px 0px;
+  font-family:CeraM;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.subHead{
+    font-size: 16px;
+    font-family: Metro;
+    letter-spacing: 0px;
+color: #3598DB;
+opacity: 1;
+}
+.input-field2 {
+    box-shadow: 2px 2px 2px 2px #00000029;
+    border-radius: 31px;
+    flex-basis: 35%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 5px 10px;
+    width:850px;
+    height:55px;
+    color:#333333;
+  }
+
+  .searchButton1 {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-left: 500px;
+    color: #3598DB;
+  }
+
+  .addFilesMyTasks1 {
+    display: flex;
+    right: 2%;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #3598DB;
+    padding: 8px 16px;
+    border: 1px solid #3598DB;
+    align-items: center;
+    width: auto;
+    height: 47px;
+  }
+
+  .addFilesMyTasks2 {
+    display: flex;
+    right: 2%;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background-color: #3598DB;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: 1px solid #3598DB;
+    align-items: center;
+    width: auto;
+    height: 47px;
+  }
+  #myBtn1{
+    width: 105px;
+}
+#myBtn2{
+    width: 85px;
+}
+#myBtn3{
+    width: 130px;
+}
+
+#val1{
+    font-size: 18px;
+    font-family: MetroM;
+    letter-spacing: 0px;
+    color:#333333;
+    margin-top: 50px;
+    margin-left: 61px;
+}
+#val2{
+    font-size: 16px;
+    font-family: MetroM;
+    letter-spacing: 0px;
+    color:#333333;
+    margin-top: 66px;
+    margin-left: 61px;
+}
+#val3{
+    font-size: 16px;
+    font-family: MetroM;
+    letter-spacing: 0px;
+    color:#979797;
+    margin-top: 66px;
+    margin-left: 61px;
+}
+#val4{
+   margin-left: 60px;
+   width:90%
+}
+#val5{
+    font-size: 18px;
+    font-family: Metro;
+    letter-spacing: 0px;
+    color:#3598DB;
+    text-align: center;
+}
+#down-text{
+    font-size:20px;
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #fff;
+    color: #D5D5D5;
+  }
+  
+  .next {
+    background-color: #fff;
+    color: #333333;
+    align-items:right;
+  }
+  .mid{
+    background-color: #3598DB;
+    color: #fff;
+  }
+  .coming{
+    background-color: #fff;
+    color: #333333;
+  }

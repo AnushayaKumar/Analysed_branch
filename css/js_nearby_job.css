@@ -1,0 +1,185 @@
+@font-face {
+  font-family: CeraB;
+  src: url(../fonts/CeraPro-Bold.ttf);
+}
+@font-face {
+  font-family: MetroB;
+  src: url(../fonts/metropolis/Metropolis-Bold.woff);
+}
+@font-face {
+  font-family: CeraM;
+  src: url(../fonts/CeraPRO-Medium.ttf);
+}
+@font-face {
+  font-family: Metro;
+  src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+@font-face {
+  font-family: MetroM;
+  src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+@font-face {
+  font-family: MetroS;
+  src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+}
+@font-face {
+  font-family: MetroMI;
+  src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+}
+#temp{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  padding-top:30px;
+/* width: 70%; */
+  
+}
+#temp2{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-top: 10px;
+padding-bottom: 20px;
+/* margin:20px; */
+}
+.main_body{
+  margin-left: 150px;
+}
+.a1{
+  color: #333333;
+  font-family: CeraM;
+  font-size: 35px;
+}
+#b1{
+  color:#979797;
+  font-family: Metro;
+  font-size: 15px;
+}
+#b2{
+  color:#333333;
+  font-family: Metro;
+  font-size: 15px;
+}
+#b3{
+  color:#333333;
+  font-family: Metro;
+  font-size: 16px;
+}
+#b4{
+  color:#333333;
+  font-family: MetroS;
+  font-size: 15px;
+}
+#b5{
+  color:#979797;
+  font-family: MetroM;
+  font-size: 14px;
+}
+#f1{
+  color:#333333;
+  font-family: MetroM;
+  font-size: 18px;
+}
+#f9{
+color:#3598DB;
+font-family: MetroM;
+font-size: 18px;
+}
+
+.loc
+{
+ border: 1px solid #979797;
+  border-radius: 7px;
+  opacity: 1;
+  margin-top: 10px;
+  height: 50px;
+  width:230px;
+}
+.f2{
+  height: 53px;
+  width:100px;
+  border-radius: 7px;
+  border: 1px solid #979797;
+  margin-right: 20px;
+}
+.f3{
+  height: 53px;
+  width:100px;
+  border-radius: 7px;
+  border: 1px solid #979797;
+  margin-right: 0%;
+}
+.sal2
+{
+  display: flex;
+}
+.chip {
+  display: inline-block;
+  padding:5px 15px;
+  border-radius: 5px;
+  background-color:#f5f5f5;
+  font-size: smaller;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sel{
+  width: 230px;
+  height: 53px;
+  border: 1px solid #3598DB;
+  border-radius: 7px;
+  opacity: 1;
+  margin-top: 10px;
+}
+.icons{
+  align-items: right;
+  margin-top: 15px;
+  margin-left:150px
+}
+.designation{
+font-family: MetroB;
+font-size: 17px;
+color: #333333;
+}
+.days{
+  color: #979797;
+  font-family: MetroM;
+  font-size:10px;
+  }
+.skills{
+color: #3598DB;
+font-style: MetroMI;
+font-size: 16px;
+}
+progress::-webkit-progress-value {
+  background-color: green;
+}
+.last_job_content #first{
+  float:left;
+  margin-top: 10px;
+  font-size: smaller;
+  font-family: sans-serif;
+  color: #979797;
+  }
+  .last_job_content #second{
+  text-decoration: none;
+  float: right;
+  border: 1px solid #3598DB;
+  border-radius: 20px;
+  padding:5px;
+  color:#3598DB;
+  font-size: smaller;
+  font-family: sans-serif;
+  margin-right: 20px;
+  }
+.last_job_content{
+color: #0F9D58;
+font-size: 16px;
+font-family: MetroM;
+}

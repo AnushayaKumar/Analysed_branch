@@ -1,0 +1,370 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+
+.row-ekam-flex-JobsNearYou{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    /* margin-right: 200px; */
+}
+.locationsettings-button-jobsNearYou{
+    position: absolute;
+    top: -10%;
+    right: 1%;
+    border: none;
+    outline: none;
+    background: #3598DB;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: 130px;
+    height: 45px;
+    width: 226px;
+    font-family: Metro;
+    font-size: 18px;
+}
+.map-section-jobsNearYou{
+    flex-basis: 65%;
+    border-right: 2px solid #e8e8e8;
+    padding: 0px 30px;
+}
+.map-section-jobsNearYou img{
+    /* max-width:100%;
+    width: 100%; */
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.cards-section-jobsNearYou{
+    flex-basis: 20%;
+    height: 85vh;
+    overflow-x: scroll;
+    overflow-y:scroll;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+
+}
+.cards-section-jobsNearYou:-webkit-scrollbar {
+    display: none;
+}
+.cardItem-section-jobsNearYou{
+    position: relative;
+    padding: 20px;
+    box-shadow: 3px 3px 3px 2px #00000033;
+    border-radius: 8px;
+    opacity: 1;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    width: 310px;
+height: 500px;
+}
+.shareIcons-div-jobsNearYou{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+.cardItem-heading-info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.cardItem-heading-info span{
+    margin-left: 20px;
+}
+.cardItem-heading-info span h4{
+    color: #333333;
+    font-size: 18px;
+}
+.cardItem-heading-info span p{
+    color: #979797;
+    font-size: 14px;
+}
+.designation-cardItem-jobsNearYou{
+    margin: 18px 0px 8px 0px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+.duration-cardItem-jobsNearYou {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.duration-cardItem-jobsNearYou span{
+    background-color: #00000033;
+    width: 100px;
+    height: 7px;
+    border-radius: 7px;
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+.duration-cardItem-jobsNearYou span::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 5px;
+    background-color: #FE4B51;
+}
+.duration-cardItem-jobsNearYou p{
+    color:    #979797;
+    font-size: 14px;
+}
+.jobs-description-cardItem-jobsNearYou {
+    color: #979797;
+    margin-bottom: 8px;
+}
+.timeTaken-cardItem-jobsNearYou{
+    display: inline-block;
+    border: 1px solid #297FB8;
+    color: #297FB8;
+    padding: 6px 15px;
+    border-radius: 7px;
+    margin-top: 12px;
+    background-color: rgb(223, 235, 241);
+}
+.row-ekam-flex-JobsNearYou.fulltime-applynow-cardItem-jobsNearYou{
+    margin-top:40px ;
+    align-items: center;
+}
+.row-ekam-flex-JobsNearYou.fulltime-applynow-cardItem-jobsNearYou span{
+    color: #979797;
+    font-size: 14px;
+}
+.applyNow-cardsItem-jobsNearYou{
+    border: 1px solid #297FB8;
+    color: #297FB8;
+    outline: none;
+    background-color: #fff;
+    padding: 5px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.skills-cardItem-jobsNearYou{
+    display: block;
+    color: #297FB8;
+    font-style: italic;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.modal-jobsNearYou{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 50px;
+    border-radius: 6px;
+    z-index: 1000;
+    width: 60%;
+    /* margin-top: 200px; */
+}
+.location-settings-heading{
+    font-size: 27px;
+    color: #3598DB;
+    font-family: CeraM;
+    margin: 20px 0px;
+}
+.grid-location-settings-modal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 90px;
+    width: 90%;
+    margin: 0px auto;
+}
+.grid-location-settings-modal input{
+    width: 100%;
+    margin: 5px 0px;
+    border: 1px solid #297FB8;
+    padding: 10px 16px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    color: #333333;
+}
+.column-1-location-settings-modal label,.column-2-location-settings-modal label{
+    font-size: 18px;
+    color:#333333;
+    margin-bottom: 8px;
+    display: block;
+}
+.column-1-location-settings-modal{
+    grid-column: 1/2;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: MetroM;
+    color: #333333;
+}
+.column-2-location-settings-modal{
+    grid-column: 2/3;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: MetroM;
+    color: #333333;
+}
+.te1{
+    margin-top: 40px;
+}
+.te2{
+    height: 30px;
+    width: 30px;
+    line-height: 0.3;
+}
+#payTypeSalary-modal-input{
+    display: inline-block;
+    width: 40%;
+    margin-top: 10px;
+}
+#industry-modal-input{
+    border: 1px solid #297FB8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    background: #fff;
+    color: #297FB8;
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+}
+#addSkills-modal-input{
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border: 1px solid #979797;
+    color: #979797;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+.radioButtons-jobsType-modal{
+    margin-top: 40px;
+}
+.radioButtons-jobsType-modal{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.radioButtons-jobsType-modal label{
+    flex-basis: 90%;
+    margin: 0px;
+}
+.radioButtons-jobsType-modal input{
+    width: 50px;
+    margin: 0px;
+}
+.container-modal-inputs-jobsNearYou{
+    position: relative;
+}
+.applySetting-modal-jobsType{
+    bottom: 1%;
+    right: 0%;
+    position: absolute;
+    border: none;
+    outline: none;
+    background: #3598DB;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 45px;
+    width: 175px;
+    font-size: 18px;
+    font-family: CeraM;
+}
+.closeSettings-modal-jobsNearYou{
+    font-size: 16px;
+    right: 3%;
+    top: 10%;
+    color: #979797;
+    cursor: pointer;
+    position: absolute;
+}
+.bgcolor-modal-JobsNearYou{
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0,0,0,.4);
+    z-index:900;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* margin-top: 100px; */
+    /* padding: 0px; */
+    overflow: hidden;   
+    display: none;
+}
+@media screen and (max-width:2000px){
+    .cards-section-jobsNearYou{
+        flex-basis: 33%;
+    }
+}
+@media screen and (max-width:1000px){
+    .map-section-jobsNearYou{
+        flex-basis: 100%;
+    }
+    .row-ekam-flex-JobsNearYou{
+        margin-top: 120px;
+    }
+    .map-section-jobsNearYou{
+        border-bottom:1px slid #e8e8e8 ;
+    }
+    .cards-section-jobsNearYou{
+        margin-top: 50px;
+        flex-basis: 100%;
+    }
+    .grid-location-settings-modal{
+        display: flex;
+        flex-direction: column;
+    }
+    .modal-jobsNearYou{
+        width: 90%;
+    }
+    .modal-jobsNearYou{
+        margin-top: 100px;
+        padding-bottom:90px ;
+    }
+    .bgcolor-modal-JobsNearYou{
+        height: 200vh;
+    }
+    .applySetting-modal-jobsType{
+        bottom: -10%;
+    }
+}
