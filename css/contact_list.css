@@ -1,0 +1,118 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+}
+@font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+}
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+
+.main_body{
+    margin-left:200px;
+}
+.head_txt{
+    color: #333333;
+    font-size: 30px;
+    font-family: CeraM;
+}
+
+#m1{
+    color: #297FB8;
+    font-size: 18px;
+    font-family: Metro;
+}
+.sub_1{
+    color: #3598DB;
+    font-size: 14px;
+    font-family: Metro;
+}
+.box_1{
+    margin-bottom: 10px;
+}
+#k1{
+  color: #333333;
+  font-size: 16px;
+  font-family: Metro;
+}
+#k2{
+  color: #979797;
+  font-size: 14px;
+  font-family: Metro;
+  line-height: 0.5;
+}
+.addFilesMyTasks1 {
+    display: flex;
+    right: 2%;
+    box-shadow: 1px 3px 8px #00000033;
+    border-radius: 8px;
+    background-color: #6EC5FF;
+    color: #fff;
+    padding: 8px 16px;
+    border: 1px solid #6EC5FF;
+    align-items: right;
+    width: 81px;
+    height: 40px;
+    margin-left: 980px;
+    margin-bottom: 50px;
+  }
+
+
+
+
+  .singleTasks_containerDiv {
+    margin-top: 40px;
+  }
+  
+  .singletask_myTasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    background: #fff;
+    padding:20px;
+    color: #333333;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 1140px;
+  }
+  .button-div_myTasks{
+    display: flex;
+    flex-direction: column;
+  }
+  .sortByMyTasks {
+    color: #979797;
+    margin: 0px 15px;
+  }
+  .recentMyTasks {
+    color: #8bd0ffb8;
+    margin: 0px 10px;
+  }
+  .searchButton{
+    margin-left: 250px;
+  }
+  .inputSearch_12{
+    width: 50px;
+  }
+
+  

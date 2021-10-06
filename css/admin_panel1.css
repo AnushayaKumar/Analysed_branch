@@ -1,0 +1,187 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+  @font-face {
+    font-family: MetroSB;
+    src: url(../fonts/metropolis/Metropolis-SemiBold.woff);
+  }
+
+
+.main_body{
+    margin-left: 170px;
+}
+
+.Heading_Dash_1{
+    font-weight: 500;
+    font-size: 33px;
+    color: #333333;
+    margin: 10px 0px;
+    font-family: CeraM;
+  }
+  .sub_1{
+    color: #3598DB;
+    font-size: 15px;
+    font-family: Metro;
+}
+.addFilesMyTasks1 {
+    display: flex;
+    right: 2%;
+    box-shadow: 1px 3px 10px #fff;
+    border-radius: 16px;
+    background-color: #fff;
+    color: #2D3E50;
+    padding: 8px 16px;
+    border: 1px solid #2D3E50;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    font-family: Metro;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .input-field1 {
+    box-shadow: 3px 3px 5px 3px #00000029;
+    border-radius: 31px;
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 561px;
+    
+  }
+  .addFilesMyTasks {
+    display: flex;
+    right: 1%;
+    box-shadow: 1px 3px 10px #297FB8;
+    border-radius: 8px;
+    background-color: #3598DB;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: Metro;
+    border: #3598DB;
+  }
+.t1{
+    color: #2D3E50;
+    font-size: 16px;
+    font-family: MetroM;
+}
+
+
+.task_5{
+    display: flex;
+    align-items: flex-start;
+      /* justify-content: space-between; */
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  #extracards
+  {
+    display: flex;
+    align-items: flex-start;
+      /* justify-content: space-between; */
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  #c5{
+    width: 200px;
+    height: 290px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .int_5{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .l1{
+    color: #333333;
+    font-size: 16px;
+    font-family: MetroM;
+  }
+  .l2{
+    color: #979797;
+    font-size: 14px;
+    font-family: Metro;
+    line-height: 0.3;
+  }
+  .l3{
+    color: #333333;
+    font-size: 14px;
+    font-family: Metro;
+  }
+  #mp1{
+    color: #6EC5FF;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 80px;
+  }
+
+  .button_1{
+    display: flex;
+    right: 1%;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #979797;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: Metro;
+    border: #fff;
+  }
+  .b1{
+    color: #979797;
+    font-size: 15px;
+    font-family: Metro;
+    /* margin-left: 850px; */
+  }
+  #vmore
+  {
+    padding-top: 100%;
+  }
+  #vless
+  {
+    padding-top: 100%;
+  }
+  .b2{
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 900px;
+  }
+  .b3{
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 930px;
+  }
+#img_e{
+    height:70px; 
+    width:70px;
+    margin-right: 20px;
+}

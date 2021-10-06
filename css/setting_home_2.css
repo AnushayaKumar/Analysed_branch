@@ -1,0 +1,324 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+  @font-face {
+    font-family: MetroSB;
+    src: url(../fonts/metropolis/Metropolis-SemiBold.woff);
+  }
+#ex1{
+  width: 227px;
+height: 48px;
+border: 1px solid #2D3E50;
+border-radius: 8px;
+opacity: 1;
+color: #2D3E50;
+font-size: 18px;
+font-family: MetroM;
+line-height: 2.8;
+margin-left: 50px;
+}
+#ex2{
+  width: 186px;
+  height: 48px;
+border: 1px solid #E84BC4;
+border-radius: 8px;
+opacity: 1;
+color: #E84BC4;
+font-size: 18px;
+font-family: MetroM;
+line-height: 2.8;
+margin-left: 50px;
+}
+
+
+#ex3{
+  width: 194px;
+height: 48px;
+border: 1px solid #FFBD06;
+border-radius: 8px;
+opacity: 1;
+color: #FFBD06;
+font-size: 18px;
+font-family: MetroM;
+line-height: 2.8;
+margin-left: 50px;
+}
+#ex4{
+  width: 182px;
+height: 48px;
+border: 1px solid #3598DB;
+border-radius: 8px;
+opacity: 1;
+color: #3598DB;
+font-size: 18px;
+font-family: MetroM;
+line-height: 2.8;
+margin-left: 50px;
+}
+
+#ex5{
+  width: 209px;
+height: 48px;
+border: 1px solid #51C46D;
+border-radius: 8px;
+opacity: 1;
+color: #51C46D;
+font-size: 18px;
+font-family: MetroM;
+line-height: 2.8;
+margin-left: 50px;
+}
+#ex6{
+  width: 143px;
+  height: 48px;
+border: 1px solid #8C60EB;
+border-radius: 8px;
+opacity: 1;
+color: #8C60EB;
+font-size: 18px;
+font-family: MetroM;
+line-height: 2.8;
+margin-left: 50px;
+}
+.g1{
+  color: #297FB8;
+  font-size: 18px;
+  font-family: MetroM;
+  margin-left: 450px;
+}
+  #upload-modal
+  {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    z-index: 2;
+    display: none;
+  }
+  #upload-container
+  {
+    width: 870px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    /* text-align: center; */
+          
+  }
+#def1{
+  width:85%;
+}
+#ex_9{
+  margin-left:50px ;
+}
+
+
+  .main_body{
+    margin-left: 2%;
+    margin-right: 0%;
+}
+.sub_1{
+    color: #3598DB;
+    font-size: 16px;
+    font-family: Metro;
+}
+.task_1{
+  display: flex;
+  align-items: flex-start;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+.task_5{
+  display: flex;
+  align-items: flex-start;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+#c5{
+  width: 235px;
+  height: 273px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+#c1{
+  height: 420px;
+  width: 257px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#c2{
+  height: 420px;
+  width: 257px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+    background: transparent linear-gradient(162deg, #3598DB 0%, #2980B9 100%, #297FB8 100%) 0% 0% no-repeat padding-box;
+}
+#mp1{
+  color: #6EC5FF;
+  font-size: 15px;
+  font-family: Metro;
+  margin-left: 55%;
+  /* margin-right: 0%; */
+}
+#mp2{
+  color: #6EC5FF;
+  font-size: 15px;
+  font-family: Metro;
+  margin-left: 65%;
+  /* margin-right: 0%; */
+}
+.int_5{
+  margin-top: 9px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.int_1{
+  margin-top: 20px;
+  margin-left: 33px;
+  margin-right: 10px;
+}
+
+.l1{
+  color: #333333;
+  font-size: 14px;
+  font-family: MetroM;
+}
+.l2{
+  color: #979797;
+  font-size: 14px;
+  font-family: Metro;
+  line-height: 0.3;
+}
+.l3{
+  color: #333333;
+  font-size: 16px;
+  font-family: Metro;
+}
+.t1{
+  color: #2D3E50;
+  font-size: 18px;
+  font-family: MetroSB;
+}
+.t2{
+  color: #2D3E50;
+  font-size: 35px;
+  font-family: CeraM;
+}
+.t3{
+  color: #2D3E50;
+  font-size: 13px;
+  font-family: Metro;
+}
+.t4{
+  color: #2D3E50;
+  font-size: 13px;
+  font-family: Metro;
+}
+.t5{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #2D3E50;
+border-radius: 7px;
+opacity: 1;
+width: 180px;
+height: 55px;
+color: #2D3E50;
+font-size: 18px;
+font-family: Metro;
+text-align: center;
+line-height: 3;
+}
+
+.int_2{
+  margin-top: 20px;
+  margin-left: 33px;
+  margin-right: 10px;
+}
+.p1{
+  color: #fff;
+  font-size: 18px;
+  font-family: MetroSB;
+}
+.p2{
+  color: #fff;
+  font-size: 35px;
+  font-family: CeraM;
+}
+.p3{
+  color: #fff;
+  font-size: 13px;
+  font-family: Metro;
+}
+.p4{
+  color: #fff;
+  font-size: 13px;
+  font-family: Metro;
+}
+.p5{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #2D3E50;
+border-radius: 7px;
+opacity: 1;
+width: 259px;
+height: 55px;
+color: #2D3E50;
+font-size: 18px;
+font-family: Metro;
+text-align: center;
+line-height: 3;
+}
+
+.input-field1 {
+  box-shadow: 3px 3px 5px 3px #00000029;
+  border-radius: 31px;
+  flex-basis: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  height: 40px;
+}
+.addFilesMyTasks {
+  display: flex;
+  right: 1%;
+  border-radius: 8px;
+  background-color: #6EC5FF;
+  color: white;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-family: Metro;
+}

@@ -1,0 +1,141 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+.main_body{
+    margin-left:200px;
+}
+.head_t{
+    color: #333333;
+    font-size: 34px;
+    font-family: CeraM;
+    margin-left: 13%;
+}
+.sub_1{
+    color: #3598DB;
+    font-size: 16px;
+    font-family: Metro;
+    margin-left: 13%;
+}
+.sub_22{
+  color: #3598DB;
+  font-size: 27px;
+  font-family: CeraM;
+  margin-left: 13%;
+}
+.sub_2{
+    color: #3598DB;
+    font-size: 27px;
+    font-family: CeraM;
+    margin-left: 17%;
+}
+.sub_3{
+    color: #333333;
+    font-size: 18px;
+    font-family: MetroM;
+}
+#opt1{
+  color: #3598DB;
+  font-size: 16px;
+  height: 50px;
+  width: 300px;
+  border: 1px solid #3598DB;
+  border-radius: 7px;
+  background-color: #fff;
+}
+.inp_1{
+  width: 300px;
+height: 50px;
+border: 1px solid #3598DB;
+border-radius: 7px;
+font-size: 16px;
+}
+
+
+input[type="radio"]{
+  cursor: pointer;
+  display: none;
+}
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  vertical-align: middle;
+  border: 2px solid #2699FB;
+  border-radius: 50%;
+  padding: 2px;
+  margin:0 5px;
+}
+input[type="radio"]:checked + label span {
+  
+  top: 10px;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+  
+  background-color: #2196F3;
+}  
+#tem1{
+  color: #333333;
+  font-family: Metro;
+  font-size: 16px;
+}
+#te2{
+  color: #3598DB;
+  font-size: 18px;
+  font-family: Metro;
+  margin-bottom: 20px;
+}
+#te3{
+  color: #333333;
+  font-size: 16px;
+  font-family: Metro;
+  margin-bottom: 20px;
+}
+.box_2{
+  height: 20px;
+  width: 20px;
+  color: #2699FB;
+  margin-top: 20px;
+}
+.addFilesMyTasks1 {
+  display: flex;
+  right: 2%;
+  box-shadow: 1px 3px 10px #00000033;
+  border-radius: 8px;
+  background-color: #51C46D;
+  color: #fff;
+  padding: 8px 16px;
+  border: 1px solid #51C46D;
+  align-items: right;
+  width: 156px;
+  height: 45px;
+  margin-left: 850px;
+}

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+.main_body{
+    margin-left: 200px;
+}
+.sub_1{
+    color: #3598DB;
+    font-size: 14px;
+    font-family: Metro;
+}
+#m1{
+    color: #297FB8;
+    font-size: 15px;
+    font-family: Metro;
+}
+.searchButton{
+    margin-left: 100px;
+    color: #297FB8;
+  }
+#inputSearch{
+    font-size: 15px;
+    font-family: Metro;
+}
+.sortByMyTasks {
+    color: #979797;
+    margin: 0px 15px;
+    font-size: 15px;
+    font-family: Metro;
+  }
+  .recentMyTasks {
+    color: #8BD0FF;
+    margin: 0px 10px;
+    font-size: 15px;
+    font-family: Metro;
+  }
+  #m2{
+    color: #979797;
+    font-size: 16px;
+    font-family: Metro;
+}
+#opt1{
+    color: #333333;
+    font-size: 14px;
+    height: 40px;
+    width: 210px;
+    border: 1px solid #3598DB;
+    border-radius: 7px;
+    background-color: #fff;
+  }
+#car1{
+    width: 500px;
+height: 310px;
+padding-right: 20px;
+}
+#ro1{
+    width:98%;
+}
+.cont_1{
+    margin:30px;
+
+}
+#n1{
+    font-size: 18px;
+    font-family: CeraM;
+    color: #333333;
+}
+#n2{
+    font-size: 12px;
+    font-family: Metro;
+    color: #979797;
+}
+#n3{
+    font-size: 16px;
+    font-family: Metro;
+    color: #333333;
+}
+#n8{
+    font-size: 15px;
+    font-family: Metro;
+    color: #FF5763;
+    background-color: #FFE3E5;
+    width: 146px;
+    height: 30px;
+    background: #FFE3E5 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    box-shadow: #fff;
+    border:#FFE3E5 ;
+}
+#n9{
+    font-size: 18px;
+    font-family: Metro;
+    color: #51C46D;
+}
+progress::-webkit-progress-value {
+    background-color: green;
+  }
+#p1{
+    width: 350px;
+    height: 8px;
+    color: #51C46D;
+    background-color: #F5F5F5;
+    border-radius: 4px 4px 4px 4px;
+    border: #F5F5F5;
+}

@@ -1,0 +1,313 @@
+@font-face {
+  font-family: CeraB;
+  src: url(../fonts/CeraPro-Bold.ttf);
+}
+@font-face {
+  font-family: MetroB;
+  src: url(../fonts/metropolis/Metropolis-Bold.woff);
+}
+@font-face {
+  font-family: CeraM;
+  src: url(../fonts/CeraPRO-Medium.ttf);
+}
+@font-face {
+  font-family: Metro;
+  src: url(../fonts/metropolis/Metropolis-Regular.woff);
+}
+@font-face {
+  font-family: MetroM;
+  src: url(../fonts/metropolis/Metropolis-Medium.woff);
+}
+@font-face {
+  font-family: MetroS;
+  src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+}
+@font-face {
+  font-family: MetroMI;
+  src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+}
+
+
+#y5{
+  color: #333333;
+  font-size: 14px;
+  font-family: Metro;
+}
+.val1{
+  color: #3598db;
+  font-size: 16px;
+  font-family: Metro;
+}
+.main_searchJobs_container {
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.searchJobs_list {
+  list-style: none;
+  flex-basis: 0.1%;
+}
+.searchJobs_listItem.active {
+  color: #3598db;
+}
+.searchJobs_listItem {
+  padding: 12px 0px;
+  /* margin: 10px 0px; */
+  color: #333333;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Metro;
+}
+.searchBar_section_searchJobs {
+  flex-basis: 60%;
+  /* padding: 0px 10px; */
+  position: relative;
+  height: 58px;
+  width: 811px;
+}
+.filter_for_searchJobs {
+  flex-basis: 10%;
+  display: flex;
+}
+.input_for_Search_searchJobs {
+  width: 80%;
+  border: 1px solid #979797;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 31px;
+  padding: 10px 15px;
+  font-size: 15px;
+  outline: none;
+  color: #979797;
+  z-index: 1;
+  position: relative;
+}
+.searchButton_searchJobs {
+  background-color: none;
+  border: none;
+  outline: none;
+  color: #3598DB;
+  margin-left: -40px;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+.advancedSearch_text {
+  color: #3598DB;
+  float: right;
+  margin-top: 30px;
+  margin-right: 160px;
+}
+.recent_searches_div {
+  position: absolute;
+  padding: 30px 30px 90px 30px;
+  background-color: white;
+  width: 80%;
+  z-index: 0;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 31px;
+  display: none;
+}
+.recent_searches_div.active{
+  display: block;
+}
+.recent_searches_div p {
+  color: #979797;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.recent_searches_div span {
+  color: #297fb8;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+.tags_div_searchJobs {
+  display: none;
+  flex-basis: 80%;
+  width: 100%;
+}
+.upper_cta_tags_div_searchJobs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upper_cta_tags_div_searchJobs span{
+  color: #3598DB;
+  font-size: 18px;
+  font-family: Metro;
+}
+.upper_cta_tags_div_searchJobs button{
+  outline: none;
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #3598DB;
+  box-shadow: 1px 3px 10px #00000033;
+border-radius: 8px;
+opacity: 1;
+  width: 95px;
+height: 38px;
+margin-right: 200px;
+font-size: 18px;
+font-family: Metro;
+}
+.radioButtons_div_searchJobs{
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #979797;
+}
+.radioButtons_div_searchJobs p{
+  margin-bottom: 10px;
+  color: #979797;
+  font-size: 18px;
+  font-family: Metro;
+}
+.radioButtons_div_searchJobs span input{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+border: 3px solid #3598db;
+margin:0px 8px;
+color: #fff;
+width: 20px;
+height: 20px;
+/* border-radius: 8px; */
+}
+.radioButtons_div_searchJobs span input:checked{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 10px solid #979797;
+  
+
+  }
+.radioButtons_div_searchJobs span{
+  display: inline-block;
+  /* padding: 20px; */
+}
+.filter_div_searchJobs {
+  position: relative;
+  flex-basis: 100%;
+}
+.flex-direction-column-searchJobs{
+  display: flex;
+  flex-direction: column;
+}
+.flex-direction-column-searchJobs section{
+  margin-top: 15px;
+}
+.y2{
+  color: #333333;
+  font-size: 18px;
+  font-family: MetroM;
+}
+.chip {
+  display: inline-block;
+  padding:5px 15px;
+  background-color:#f5f5f5;
+  font-size: smaller;
+  border: 1px solid #979797;
+border-radius: 6px;
+opacity: 1;
+font-size: 18px;
+font-family: MetroM;
+color: #979797;
+margin-top: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flex-direction-column-searchJobs section span{
+  margin-top: 8px;
+  display: inline-block;
+}
+.filter_div_searchJobs p {
+  margin: 10px 0px;
+  color: #333333;
+  font-size: 18px;
+}
+.filter_div_searchJobs select{
+  margin: 14px 0px;
+  border: 1px solid #3598DB;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none; 
+  border-radius: 7px;
+  padding:7px 10px;
+  background:transparent;
+  color: #333333;
+  position: relative;
+}
+
+.filter_div_searchJobs input{
+    padding: 8px 20px;
+    margin: 14px 0px;
+    color: #979797;
+}
+.addSkills_for_searchJobs,.addCompany_for_searchJobs,.addIndustry_for_searchJobs,.addQualifications_for_searchJobs{
+    margin: 10px 0px;
+}
+.addSkills_for_searchJobs span,.addCompany_for_searchJobs span,.addIndustry_for_searchJobs span,.addQualifications_for_searchJobs span{
+    border: 1px solid #979797;
+    font-size: 14px;
+    margin: 5px;
+    background-color: #F5F5F5;
+    padding: 5px;
+    color: #979797;
+    border-radius: 3px;
+}
+#y1{
+  width: 286px;
+height: 53px;
+border: 1px solid #979797;
+border-radius: 7px;
+font-size: 16px;
+font-family: Metro;
+
+}
+
+.status_select_for_searchJobs,.type_select_for_searchJobs,.qualifications_select_for_searchJobs,.country_select_for_searchJobs,
+.state_select_for_searchJobs,.city_select_for_searchJobs,.internal_select_for_searchJobs,.systemVerified_select_for_searchJobs{
+  height: 53px;
+  width: 286px;
+  font-size: 16px;
+  font-family: Metro;
+  color: #333333;
+}
+
+@media screen and (max-width:500px){
+  .searchJobs_list{
+    display: inline;
+    margin: 8px;
+    flex-basis: 95%;
+  }
+  .searchJobs_listItem{
+    display: inline-block;
+    margin: 10px;
+  }
+  .searchBar_section_searchJobs{
+    flex-basis: 95%;
+    padding: 0px 20px;
+  }
+  .filter_for_searchJobs{
+    flex-basis: 100%;
+    margin-top: 60px;
+  }
+  .recent_searches_div{
+    z-index: 1;
+  }
+  .recent_searches_div span {
+    margin-bottom: 10px;
+  }
+  .tags_div_searchJobs{
+    flex-basis: 95%;
+  }
+}

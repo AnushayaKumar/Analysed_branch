@@ -1,0 +1,115 @@
+@font-face {
+    font-family: CeraB;
+    src: url(../fonts/CeraPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: MetroB;
+    src: url(../fonts/metropolis/Metropolis-Bold.woff);
+  }
+  @font-face {
+    font-family: CeraM;
+    src: url(../fonts/CeraPRO-Medium.ttf);
+  }
+  @font-face {
+    font-family: Metro;
+    src: url(../fonts/metropolis/Metropolis-Regular.woff);
+  }
+  @font-face {
+    font-family: MetroM;
+    src: url(../fonts/metropolis/Metropolis-Medium.woff);
+  }
+  @font-face {
+    font-family: MetroS;
+    src: url(../fonts/metropolis/Metropolis-ExtraBold.woff);
+  }
+  @font-face {
+    font-family: MetroMI;
+    src: url(../fonts/metropolis/Metropolis-MediumItalic.woff);
+  }
+  .options{
+    margin-top: 50px;
+    /* margin-left: 70px;   */
+}
+.options p{
+    margin-top: 15px;
+    /* margin-left: 10px; */
+    color: var(--unnamed-color-3598db);
+    letter-spacing: 0px;
+    color: #979797;
+    opacity: 1;
+}
+.options a{
+    text-decoration: none;
+    color: #979797;
+}
+.options-card
+{
+    margin-top:-135px;
+    /* margin-left: 230px; */
+    width: 500px;
+    height: 200px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 3px 10px #00000033;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+
+
+.indi1{
+    color:#297FB8;
+    font-family:Metro;
+    font-size: 18px;
+}
+.indi2{
+    color:#000000;
+    font-family:Metro;
+    font-size: 16px;
+    opacity: 1;
+}
+.b1{
+    color:#979797;
+    font-size: 13px;
+    text-align: left;
+    line-height: 2px;
+}
+.b2{
+    color:#333333;
+    font-size:15px;
+    text-align: center;
+    font-family:Metro;
+}
+.b3{
+    color:#333333;
+    font-size:15px;
+    text-align: left;
+    font-family:Metro;
+}
+.m1{
+    color: #3598DB;
+    font-family: CeraM;
+    font-size: 20px;
+}
+.chip {
+    display: inline-block;
+    padding:5px 15px;
+    border-radius: 6px;
+    border: 2px solid #2d3e50;
+    background-color:#fff;
+    font-size: smaller;
+  }
+#te1{
+  font-size: 18px;
+  font-family: Metro;
+}
+#box_12{
+  font-size: 15px;
+  font-family: MetroB;
+  color: #333333;
+}
+#r1{
+  color: #333333;
+  font-family: MetroM;
+  font-size: 17px;
+}
