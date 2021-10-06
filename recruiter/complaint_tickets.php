@@ -304,27 +304,27 @@
     </div>
 </div>
 <div class="create-ticket-recruiter-ekam">
-    <form action="/">
+    <form action="includes/ticket.php" method="post">
         <p class="name-for-form-create-ticket-recruiter-ekam">Create ticket</p>
         <br>
         <div class="row-recruiter create-ticket-main-recruiter-complaints">
             <div class="create-ticket-subTicket-recruiter">
                 <span>
                     <label for="name-input-complaint-tickets-recruiter">Name *</label>
-                    <input type="text" id="name-input-complaint-tickets-recruiter" placeholder="Recruiter name">
+                    <input type="text" id="name-input-complaint-tickets-recruiter" placeholder="Recruiter name" name="name">
                 </span>
                 <span class="span-section-for-email-andlabels-complaints">
                     <label for="Email-input-complaint-tickets-recruiter">Email *</label>
-                    <input type="text" id="Email-input-complaint-tickets-recruiter" placeholder="Enter the associated email address">
+                    <input type="text" id="Email-input-complaint-tickets-recruiter" name="email" placeholder="Enter the associated email address">
                 </span>
                 <span  class="span-section-for-email-andlabels-complaints">
                     <label for="Subject-input-complaint-tickets-recruiter">Subject *</label>
-                    <input type="text" id="Subject-input-complaint-tickets-recruiter" placeholder="Subject">
+                    <input type="text" id="Subject-input-complaint-tickets-recruiter" name="subject" placeholder="Subject">
                 </span>
             </div>
             <span class="create-ticket-subTicket-recruiter-2">
                 <label for="message-input-complaint-tickets-recruiter">Message *</label>
-                <textarea placeholder="Enter your message here"id="message-input-complaint-tickets-recruiter"></textarea>
+                <textarea placeholder="Enter your message here" name="message" id="message-input-complaint-tickets-recruiter"></textarea>
             </span>
         </div>
     
@@ -332,25 +332,25 @@
         <div class="row-recruiter select-options-for-complaint-tickets">
             <span>
                 <label for="options-input-complaint-tickets-recruiter">Subject *</label>
-                <div class="row-recruiter" style="justify-content:space-around;">
-                    <div class="row-recruiter" style="margin-right:35px"><input type="radio" name="complaint-type" style="margin-right:8px" id="options-input-complaint-tickets-recruiter-1"> <label for="options-input-complaint-tickets-recruiter-1">High</label></div>
-                    <div class="row-recruiter" style="margin-right:35px"><input type="radio" name="complaint-type" style="margin-right:8px" id="options-input-complaint-tickets-recruiter-2"> <label for="options-input-complaint-tickets-recruiter-2">Medium</label></div>
-                    <div class="row-recruiter" style="margin-right:35px"><input type="radio" name="complaint-type" style="margin-right:8px" id="options-input-complaint-tickets-recruiter-3"> <label for="options-input-complaint-tickets-recruiter-3">Low</label></div>
+                <div class="row-recruiter" style="justify-content:space-around;" name="priority">
+                    <div class="row-recruiter" style="margin-right:35px"><input type="radio" name="priority" style="margin-right:8px" id="options-input-complaint-tickets-recruiter-1"> <label for="options-input-complaint-tickets-recruiter-1" value="high">High</label></div>
+                    <div class="row-recruiter" style="margin-right:35px"><input type="radio" name="priority" style="margin-right:8px" id="options-input-complaint-tickets-recruiter-2"> <label for="options-input-complaint-tickets-recruiter-2" value="medium">Medium</label></div>
+                    <div class="row-recruiter" style="margin-right:35px"><input type="radio" name="priority" style="margin-right:8px" id="options-input-complaint-tickets-recruiter-3"> <label for="options-input-complaint-tickets-recruiter-3" vaue="low">Low</label></div>
                 </div>
             </span>
             <span style="width:45%" >
             <label for="complaint-type-input-complaint-tickets-recruiter">Ticket type*</label>
-            <select id="complaint-type-input-complaint-tickets-recruiter">
-                <option value="0">Complaint</option>
-                <option value="1">Feedback</option>
-                <option value="2">Query</option>
-                <option value="3">Request</option>
+            <select id="complaint-type-input-complaint-tickets-recruiter" name="tickettype">
+                <option value="Complaint">Complaint</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Query">Query</option>
+                <option value="Request">Request</option>
             </select>
             </span>
         </div>
         <span class="button-complaints-recruiter-complaints">
             <input type="button" class="close-button-for-dialog-box-create-tickets" value="Close"></input>
-            <button type="submit">Submit</button>
+            <button type="submit" name="submit">Submit</button>
         </span>
     </form>
 </div>
