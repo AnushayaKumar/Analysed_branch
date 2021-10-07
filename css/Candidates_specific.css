@@ -17,6 +17,15 @@
     font-family: MetroM;
     src: url(../fonts/metropolis/Metropolis-Medium.woff);
 }
+/* main nav */
+.container1 {
+    height:2000px;
+    margin-left: 80px;
+    position: relative;
+    padding: 0px 30px;
+    margin-top: 30px;
+    overflow-y: hidden;
+}
 .profile-img
 {
     
@@ -411,7 +420,7 @@ color: #333333;
 }
 .box-7 {
     font-family: CeraB;
-    margin-top: -275px;
+    margin-top: -195px;
     margin-left: 850px;
     width: 250px;
     height: 300px;
@@ -491,7 +500,7 @@ color: #333333;
     margin-top: 80px;
     margin-left: 230px;
     width: 500px;
-    height: 250px;
+    height: 300px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 1px 3px 10px #00000033;
@@ -500,7 +509,7 @@ color: #333333;
 }
 
 .box-9-1 {
-    margin-top: -235px;
+    margin-top: -280px;
     margin-left: 265px;
     height: 30px;
     font-size: 23px;
