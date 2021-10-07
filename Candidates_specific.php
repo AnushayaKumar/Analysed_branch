@@ -3,8 +3,8 @@
        <link rel="stylesheet" href="./css/Candidates_specific.css">
 <body>
    <?php include('header.php') ?>
-<div class="container">
-<div class="small_container">
+<div class="container1">
+<div class="small_container1">
         <div class="bread-crumbs_Mytools-recruiter">
             <a href="" class="active-breadcrumb-link">Dashboard</a> >  <a href="" class="active-breadcrumb-link">My Database</a> >  <a href="" class="active-breadcrumb-link"><u>John Smith</u></a>
         </div>
